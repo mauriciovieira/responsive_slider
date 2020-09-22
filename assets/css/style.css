@@ -54,6 +54,19 @@ body {
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
+
+button#next {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+button#prev {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
 /* Background images */
 .slide:first-child {
   background: url("../images/photo1.jpg") no-repeat center center/cover;
